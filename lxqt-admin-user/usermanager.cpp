@@ -36,6 +36,7 @@
 #include <QProcess>
 #include <QFile>
 #include <QMessageBox>
+#include <QRegularExpression>
 #include <QLatin1String>
 #include <unistd.h>
 
@@ -88,7 +89,7 @@ void UserManager::loadUsersAndGroups()
         UserInfo* user = new UserInfo(pw);
         mUsers.append(user);
         // add groups to this user
-        for(const GroupInfo* group: qAsConst(mGroups)) {
+        for(const GroupInfo* group: std::as_const(mGroups)) {
             if(group->hasMember(user->name())) {
                 user->addGroup(group->name());
             }
@@ -109,10 +110,9 @@ void UserManager::loadLoginDefs() {
             QByteArray line = file.readLine().trimmed();
             if(line.isEmpty() || line.startsWith('#'))
                 continue;
-            QStringList parts = QString::fromUtf8(line).split(QRegExp(QSL("\\s")), QString::SkipEmptyParts);
+            QStringList parts = QString::fromUtf8(line).split(QRegularExpression(QSL("\\s")), Qt::SkipEmptyParts);
             if(parts.length() >= 2) {
                 QString& key = parts[0];
-                QString& val = parts[1];
                 if(key == QLatin1String("SYS_UID_MIN")) {
                 }
                 else if(key == QLatin1String("SYS_UID_MAX")) {
@@ -192,7 +192,7 @@ void UserManager::reload() {
     Q_EMIT changed();
 }
 
-void UserManager::onFileChanged(const QString &path) {
+void UserManager::onFileChanged(const QString & /*path*/) {
     // QFileSystemWatcher is very broken and has a ridiculous design.
     // we get "fileChanged()" when the file is deleted or modified,
     // but there is no way to distinguish them. If the file is deleted,
@@ -225,8 +225,8 @@ bool UserManager::pkexec(const QStringList& command, const QByteArray& stdinData
     const bool succeeded = process.exitCode() == 0;
     if (!succeeded)
     {
-        QMessageBox * msg = new QMessageBox{QMessageBox::Critical, tr("lxqt-admin-user")
-            , tr("<strong>Action (%1) failed:</strong><br/><pre>%2</pre>").arg(command[0], QString::fromUtf8(pkexec_error))};
+        QMessageBox * msg = new QMessageBox{QMessageBox::Critical, QStringLiteral("lxqt-admin-user"),
+            tr("<strong>Action (%1) failed:</strong><br/><pre>%2</pre>").arg(command[0], QString::fromUtf8(pkexec_error))};
         msg->setAttribute(Qt::WA_DeleteOnClose, true);
         msg->show();
     }
@@ -437,11 +437,17 @@ const QStringList& UserManager::availableShells() {
                 QByteArray line = file.readLine().trimmed();
                 if(line.isEmpty() || line.startsWith('#'))
                     continue;
-                mAvailableShells.append(QString::fromLocal8Bit(line));
+                QString shell = QString::fromLocal8Bit(line);
+                 if (shell.endsWith(QLatin1String("/bash")) ) {
+                    mAvailableShells.prepend(shell);
+                } else {
+                    mAvailableShells.append(shell);
+                }
             }
             file.close();
         }
     }
     return mAvailableShells;
 }
+
 

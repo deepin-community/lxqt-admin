@@ -58,7 +58,7 @@ UserDialog::UserDialog(UserManager* userManager, UserInfo* user, QWidget* parent
             item->setCheckState(Qt::Unchecked);
         ui.groupList->addItem(item);
     }
-    connect(ui.loginName, SIGNAL(textChanged(QString)), SLOT(onLoginNameChanged(QString)));
+    connect(ui.loginName, &QLineEdit::textChanged, this, &UserDialog::onLoginNameChanged);
 
     ui.loginShell->addItems(mUserManager->availableShells());
 
@@ -101,12 +101,12 @@ void UserDialog::onLoginNameChanged(const QString& text)
     }
 }
 
-void UserDialog::onFullNameChanged(const QString& text)
+void UserDialog::onFullNameChanged(const QString& /*text*/)
 {
    mFullNameChanged = true;
 }
 
-void UserDialog::onHomeDirChanged(const QString& text)
+void UserDialog::onHomeDirChanged(const QString& /*text*/)
 {
     mHomeDirChanged = true;
 }

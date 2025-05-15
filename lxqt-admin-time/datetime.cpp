@@ -70,7 +70,12 @@ void DateTimePage::reload()
     ui->edit_time->setTime(QTime::currentTime());
 
     ui->localRTC->setChecked(mLocalRtc);
+#ifndef NO_SYSTEMD
     ui->ntp->setChecked(mUseNtp);
+#else
+    ui->ntp->setChecked(false);
+    ui->ntp->setVisible(false);
+#endif
 
     mTimer->start(1000);
 
@@ -78,7 +83,7 @@ void DateTimePage::reload()
     emit changed();
 }
 
-void DateTimePage::on_edit_time_userTimeChanged(const QTime &time)
+void DateTimePage::on_edit_time_userTimeChanged(const QTime & /*time*/)
 {
     mModified |= M_TIME;
     mTimer->stop();

@@ -31,6 +31,7 @@
 #include <QMessageBox>
 #include <QDateTime>
 #include <QMap>
+#include <QFile>
 #include <QDebug>
 
 #include <LXQt/Globals>
@@ -150,7 +151,7 @@ void TimeAdminDialog::saveChangesToSystem()
             }
         }
     }
-#ifdef Q_OS_FREEBSD
+#if defined  Q_OS_FREEBSD || defined NO_SYSTEMD
     mTimeDateCtl.pkexec();
     if(modified.testFlag(DateTimePage::M_LOCAL_RTC)) {
     const QString infoMsg = mDateTimeWidget->localRtc() ?  tr("Change RTC to be in localtime requires a reboot") : tr("Change RTC to be in UTC requires a reboot");

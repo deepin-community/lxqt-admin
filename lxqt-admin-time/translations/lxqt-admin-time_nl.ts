@@ -22,23 +22,24 @@
     <message>
         <location filename="../datetime.ui" line="70"/>
         <source>Enable network time synchronization (NTP)</source>
-        <translation>Netwerktijdsynchronisatie (NTP) inschakelen</translation>
+        <translation>Datum en tijd automatisch instellen (NTP)</translation>
     </message>
     <message>
         <location filename="../datetime.ui" line="77"/>
         <source>RTC is in local time</source>
-        <translation>RTC is in lokale tijd</translation>
+        <translation>RTC in lokale tijd</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../fbsdtimedatectl.cpp" line="122"/>
+        <location filename="../nosdtimedatectl.cpp" line="144"/>
         <source>lxqt-admin-time-helper</source>
         <translation>lxqt-admin-time-helper</translation>
     </message>
     <message>
         <location filename="../fbsdtimedatectl.cpp" line="123"/>
+        <location filename="../nosdtimedatectl.cpp" line="145"/>
         <source>&lt;strong&gt;Action (%1) failed:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</source>
         <translation>&lt;strong&gt;Actie (%1) mislukt:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</translation>
     </message>
@@ -46,40 +47,40 @@
 <context>
     <name>TimeAdminDialog</name>
     <message>
-        <location filename="../timeadmindialog.cpp" line="45"/>
+        <location filename="../timeadmindialog.cpp" line="46"/>
         <source>Time and date configuration</source>
-        <translation>Tijd en datum instellen</translation>
+        <translation>Datum en tijd instellen</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="51"/>
+        <location filename="../timeadmindialog.cpp" line="52"/>
         <source>Date and time</source>
         <translation>Datum en tijd</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="59"/>
+        <location filename="../timeadmindialog.cpp" line="60"/>
         <source>Timezone</source>
         <translation>Tijdzone</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="120"/>
-        <location filename="../timeadmindialog.cpp" line="130"/>
-        <location filename="../timeadmindialog.cpp" line="137"/>
-        <location filename="../timeadmindialog.cpp" line="147"/>
+        <location filename="../timeadmindialog.cpp" line="123"/>
+        <location filename="../timeadmindialog.cpp" line="133"/>
+        <location filename="../timeadmindialog.cpp" line="140"/>
+        <location filename="../timeadmindialog.cpp" line="150"/>
         <source>Error</source>
-        <translation>Fout</translation>
+        <translation>Foutmelding</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="154"/>
+        <location filename="../timeadmindialog.cpp" line="157"/>
         <source>Change RTC to be in localtime requires a reboot</source>
-        <translation>De RTC wijzigen naar lokale tijd vereist een herstart</translation>
+        <translation>Herstart de computer om de RTC-wijziging toe te passen</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="154"/>
+        <location filename="../timeadmindialog.cpp" line="157"/>
         <source>Change RTC to be in UTC requires a reboot</source>
-        <translation>De RTC wijzigen naar UTC vereist een herstart</translation>
+        <translation>Herstart de computer om de RTC-wijziging toe te passen</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="155"/>
+        <location filename="../timeadmindialog.cpp" line="158"/>
         <source>Reboot required</source>
         <translation>Herstart vereist</translation>
     </message>
@@ -89,12 +90,12 @@
     <message>
         <location filename="../timezone.ui" line="19"/>
         <source>Your current timezone:</source>
-        <translation>Uw huidige tijdzone:</translation>
+        <translation>Huidige tijdzone:</translation>
     </message>
     <message>
         <location filename="../timezone.ui" line="32"/>
         <source>Filter</source>
-        <translation>Filter</translation>
+        <translation>Zoeken</translation>
     </message>
 </context>
 <context>

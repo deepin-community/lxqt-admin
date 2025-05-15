@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.1.0 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.18.0 FATAL_ERROR)
 # CMP0000: Call the cmake_minimum_required() command at the beginning of the top-level
 # CMakeLists.txt file even before calling the project() command.
 # The cmake_minimum_required(VERSION) command implicitly invokes the cmake_policy(VERSION)
@@ -12,14 +12,12 @@ option(UPDATE_TRANSLATIONS "Update source translation translations/*.ts files" O
 set(LIB_INSTALL_DIR "lib${LIB_SUFFIX}" CACHE PATH "Installation path for libraries")
 
 # Minimum Versions
-set(KF5_MINIMUM_VERSION "5.36.0")
-set(LXQT_MINIMUM_VERSION "0.16.0")
-set(QT_MINIMUM_VERSION "5.12.0")
+set(LXQT_MINIMUM_VERSION "2.1.0")
+set(QT_MINIMUM_VERSION "6.6.0")
 
-find_package(Qt5Widgets ${QT_MINIMUM_VERSION} REQUIRED)
+find_package(Qt6Widgets ${QT_MINIMUM_VERSION} REQUIRED)
 find_package(lxqt ${LXQT_MINIMUM_VERSION} REQUIRED)
-find_package(KF5WindowSystem ${KF5_MINIMUM_VERSION} REQUIRED)
-find_package(PolkitQt5-1 REQUIRED)
+find_package(PolkitQt6-1 REQUIRED)
 
 # Patch Version
 set(LXQT_ADMIN_PATCH_VERSION 0)

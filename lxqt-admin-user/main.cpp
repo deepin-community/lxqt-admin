@@ -33,7 +33,6 @@
 int main(int argc, char **argv)
 {
     LXQt::SingleApplication app(argc, argv);
-    app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
 
     QCommandLineParser parser;
     parser.setApplicationDescription(QStringLiteral("LXQt Admin User"));
@@ -46,7 +45,7 @@ int main(int argc, char **argv)
     parser.process(app);
 
     MainWindow window;
-    window.setWindowIcon(QIcon::fromTheme(QSL("preferences-system")));
+    window.setWindowIcon(QIcon::fromTheme(QSL("system-users")));
     app.setActivationWindow(&window);
     window.show();
     return app.exec();

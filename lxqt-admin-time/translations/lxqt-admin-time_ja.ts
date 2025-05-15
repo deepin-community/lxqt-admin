@@ -32,53 +32,54 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../fbsdtimedatectl.cpp" line="122"/>
+        <location filename="../nosdtimedatectl.cpp" line="144"/>
         <source>lxqt-admin-time-helper</source>
         <translation>LXQt 設定アシスタント</translation>
     </message>
     <message>
         <location filename="../fbsdtimedatectl.cpp" line="123"/>
+        <location filename="../nosdtimedatectl.cpp" line="145"/>
         <source>&lt;strong&gt;Action (%1) failed:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</source>
-        <translation>&lt;strong&gt;アクション(%1)に失敗しました:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</translation>
+        <translation>&lt;strong&gt;アクション (%1) に失敗しました:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</translation>
     </message>
 </context>
 <context>
     <name>TimeAdminDialog</name>
     <message>
-        <location filename="../timeadmindialog.cpp" line="45"/>
+        <location filename="../timeadmindialog.cpp" line="46"/>
         <source>Time and date configuration</source>
         <translation>日付と時刻の設定</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="51"/>
+        <location filename="../timeadmindialog.cpp" line="52"/>
         <source>Date and time</source>
         <translation>日付と時刻</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="59"/>
+        <location filename="../timeadmindialog.cpp" line="60"/>
         <source>Timezone</source>
         <translation>タイムゾーン</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="120"/>
-        <location filename="../timeadmindialog.cpp" line="130"/>
-        <location filename="../timeadmindialog.cpp" line="137"/>
-        <location filename="../timeadmindialog.cpp" line="147"/>
+        <location filename="../timeadmindialog.cpp" line="123"/>
+        <location filename="../timeadmindialog.cpp" line="133"/>
+        <location filename="../timeadmindialog.cpp" line="140"/>
+        <location filename="../timeadmindialog.cpp" line="150"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="154"/>
+        <location filename="../timeadmindialog.cpp" line="157"/>
         <source>Change RTC to be in localtime requires a reboot</source>
         <translation>RTC をローカル時間に変更するには再起動が必要です</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="154"/>
+        <location filename="../timeadmindialog.cpp" line="157"/>
         <source>Change RTC to be in UTC requires a reboot</source>
         <translation>RTC を UTC に変更するには再起動が必要です</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="155"/>
+        <location filename="../timeadmindialog.cpp" line="158"/>
         <source>Reboot required</source>
         <translation>再起動が必要です</translation>
     </message>

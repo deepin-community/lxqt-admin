@@ -32,55 +32,56 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../fbsdtimedatectl.cpp" line="122"/>
+        <location filename="../nosdtimedatectl.cpp" line="144"/>
         <source>lxqt-admin-time-helper</source>
-        <translation type="unfinished"></translation>
+        <translation>lxqt-admin-time-helper</translation>
     </message>
     <message>
         <location filename="../fbsdtimedatectl.cpp" line="123"/>
+        <location filename="../nosdtimedatectl.cpp" line="145"/>
         <source>&lt;strong&gt;Action (%1) failed:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;strong&gt;Darbība (%1) neizdevās&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</translation>
     </message>
 </context>
 <context>
     <name>TimeAdminDialog</name>
     <message>
-        <location filename="../timeadmindialog.cpp" line="45"/>
+        <location filename="../timeadmindialog.cpp" line="46"/>
         <source>Time and date configuration</source>
         <translation>Laika un datuma konfigurācija</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="51"/>
+        <location filename="../timeadmindialog.cpp" line="52"/>
         <source>Date and time</source>
         <translation>Datums un laiks</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="59"/>
+        <location filename="../timeadmindialog.cpp" line="60"/>
         <source>Timezone</source>
         <translation>Laika zona</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="120"/>
-        <location filename="../timeadmindialog.cpp" line="130"/>
-        <location filename="../timeadmindialog.cpp" line="137"/>
-        <location filename="../timeadmindialog.cpp" line="147"/>
+        <location filename="../timeadmindialog.cpp" line="123"/>
+        <location filename="../timeadmindialog.cpp" line="133"/>
+        <location filename="../timeadmindialog.cpp" line="140"/>
+        <location filename="../timeadmindialog.cpp" line="150"/>
         <source>Error</source>
         <translation>Kļūda</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="154"/>
+        <location filename="../timeadmindialog.cpp" line="157"/>
         <source>Change RTC to be in localtime requires a reboot</source>
-        <translation type="unfinished"></translation>
+        <translation>Lai nomainītu RTC uz vietējo laiku, ir nepieciešama datora pārlādēšana</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="154"/>
+        <location filename="../timeadmindialog.cpp" line="157"/>
         <source>Change RTC to be in UTC requires a reboot</source>
-        <translation type="unfinished"></translation>
+        <translation>Lai veiktu RTC nomaiņu uz UTC nepieciešama datora pārlādēšana</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="155"/>
+        <location filename="../timeadmindialog.cpp" line="158"/>
         <source>Reboot required</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepieciešama datora pārlāde</translation>
     </message>
 </context>
 <context>

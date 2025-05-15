@@ -21,7 +21,7 @@
     <message>
         <location filename="../groupdialog.ui" line="40"/>
         <source>Group ID:</source>
-        <translation>グループID:</translation>
+        <translation>グループ ID:</translation>
     </message>
     <message>
         <location filename="../groupdialog.ui" line="47"/>
@@ -59,7 +59,7 @@
     <message>
         <location filename="../mainwindow.ui" line="64"/>
         <source>User ID</source>
-        <translation>ユーザーID</translation>
+        <translation>ユーザー ID</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="69"/>
@@ -94,7 +94,7 @@
     <message>
         <location filename="../mainwindow.ui" line="116"/>
         <source>Group ID</source>
-        <translation>グループID</translation>
+        <translation>グループ ID</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="121"/>
@@ -102,81 +102,81 @@
         <translation>メンバー</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="185"/>
+        <location filename="../mainwindow.ui" line="188"/>
         <source>Edit properties of the selected item</source>
-        <translation>選択したアイテムのプロパティを編集する</translation>
+        <translation>選択したアイテムのプロパティを編集します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="158"/>
+        <location filename="../mainwindow.ui" line="161"/>
         <source>Add</source>
         <translation>追加</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="161"/>
+        <location filename="../mainwindow.ui" line="164"/>
         <source>Add new users or groups</source>
-        <translation>新しいユーザーまたはグループを追加</translation>
+        <translation>新しいユーザーやグループを追加します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="170"/>
+        <location filename="../mainwindow.ui" line="173"/>
         <source>Delete</source>
         <translation>削除</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="173"/>
+        <location filename="../mainwindow.ui" line="176"/>
         <source>Delete selected item</source>
-        <translation>選択した項目を削除</translation>
+        <translation>選択したアイテムを削除します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="182"/>
+        <location filename="../mainwindow.ui" line="185"/>
         <source>Properties</source>
         <translation>プロパティ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="194"/>
+        <location filename="../mainwindow.ui" line="197"/>
         <source>Refresh</source>
         <translation>再読込み</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="197"/>
+        <location filename="../mainwindow.ui" line="200"/>
         <source>Refresh the lists</source>
-        <translation>リストを再読込み</translation>
+        <translation>リストを再読込みします</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="206"/>
+        <location filename="../mainwindow.ui" line="209"/>
         <source>Change Password</source>
         <translation>パスワードの変更</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="209"/>
+        <location filename="../mainwindow.ui" line="212"/>
         <source>Change password for the selected user or group</source>
-        <translation>選択したユーザーグループのパスワード変更</translation>
+        <translation>選択したユーザーやグループのパスワードを変更します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="177"/>
-        <location filename="../mainwindow.cpp" line="189"/>
-        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="179"/>
+        <location filename="../mainwindow.cpp" line="191"/>
+        <location filename="../mainwindow.cpp" line="212"/>
         <source>Confirm</source>
         <translation>確認</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="177"/>
+        <location filename="../mainwindow.cpp" line="179"/>
         <source>Are you sure you want to delete the selected user?</source>
-        <translation>本当に、選択したユーザーを削除してよいですか？</translation>
+        <translation>本当に選択したユーザーを削除しますか？</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="189"/>
+        <location filename="../mainwindow.cpp" line="191"/>
         <source>Are you sure you want to delete the selected group?</source>
-        <translation>本当に、選択したグループを削除してよいですか？</translation>
+        <translation>本当に選択したグループを削除しますか？</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="200"/>
+        <location filename="../mainwindow.cpp" line="202"/>
         <source>Input the new password for %1:</source>
-        <translation>%1 の新しいパスワードを入力:</translation>
+        <translation>%1 の新しいパスワードを入力して下さい:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="212"/>
         <source>Are you sure you want to set a empty password?</source>
-        <translation>パスワードを空にしますか?</translation>
+        <translation>パスワードを空にしますか？</translation>
     </message>
 </context>
 <context>
@@ -189,7 +189,7 @@
     <message>
         <location filename="../userdialog.ui" line="24"/>
         <source>General</source>
-        <translation>一般</translation>
+        <translation>全般</translation>
     </message>
     <message>
         <location filename="../userdialog.ui" line="43"/>
@@ -204,7 +204,7 @@
     <message>
         <location filename="../userdialog.ui" line="53"/>
         <source>User ID:</source>
-        <translation>ユーザーID:</translation>
+        <translation>ユーザー ID:</translation>
     </message>
     <message>
         <location filename="../userdialog.ui" line="60"/>
@@ -229,7 +229,7 @@
     <message>
         <location filename="../userdialog.ui" line="109"/>
         <source>Advanced</source>
-        <translation>高度</translation>
+        <translation>詳細</translation>
     </message>
     <message>
         <location filename="../userdialog.ui" line="115"/>
@@ -249,18 +249,13 @@
     <message>
         <location filename="../userdialog.cpp" line="120"/>
         <source>The user name cannot be empty.</source>
-        <translation>ユーザー名を入力する必要があります。</translation>
+        <translation>ユーザー名を空にすることは出来ません。</translation>
     </message>
 </context>
 <context>
     <name>UserManager</name>
     <message>
-        <location filename="../usermanager.cpp" line="227"/>
-        <source>lxqt-admin-user</source>
-        <translation>LXQt ユーザー管理</translation>
-    </message>
-    <message>
-        <location filename="../usermanager.cpp" line="228"/>
+        <location filename="../usermanager.cpp" line="229"/>
         <source>&lt;strong&gt;Action (%1) failed:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</source>
         <translation>&lt;strong&gt;アクション(%1)が失敗:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</translation>
     </message>
