@@ -102,79 +102,79 @@
         <translation>Anggota</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="185"/>
+        <location filename="../mainwindow.ui" line="188"/>
         <source>Edit properties of the selected item</source>
         <translation>Edit properti dari item yang dipilih</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="158"/>
+        <location filename="../mainwindow.ui" line="161"/>
         <source>Add</source>
         <translation>Tambah</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="161"/>
+        <location filename="../mainwindow.ui" line="164"/>
         <source>Add new users or groups</source>
         <translation>Tambah pengguna atau grup baru</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="170"/>
+        <location filename="../mainwindow.ui" line="173"/>
         <source>Delete</source>
         <translation>Hapus</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="173"/>
+        <location filename="../mainwindow.ui" line="176"/>
         <source>Delete selected item</source>
         <translation>Hapus item terpilih</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="182"/>
+        <location filename="../mainwindow.ui" line="185"/>
         <source>Properties</source>
         <translation>Properti</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="194"/>
+        <location filename="../mainwindow.ui" line="197"/>
         <source>Refresh</source>
         <translation>Segarkan</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="197"/>
+        <location filename="../mainwindow.ui" line="200"/>
         <source>Refresh the lists</source>
         <translation>Segarkan daftar ini</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="206"/>
+        <location filename="../mainwindow.ui" line="209"/>
         <source>Change Password</source>
         <translation>Ubah Kata Sandi</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="209"/>
+        <location filename="../mainwindow.ui" line="212"/>
         <source>Change password for the selected user or group</source>
         <translation>Ubah kata sandi untuk pengguna atau grup yang terpilih</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="177"/>
-        <location filename="../mainwindow.cpp" line="189"/>
-        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="179"/>
+        <location filename="../mainwindow.cpp" line="191"/>
+        <location filename="../mainwindow.cpp" line="212"/>
         <source>Confirm</source>
         <translation>Konfirmasi</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="177"/>
+        <location filename="../mainwindow.cpp" line="179"/>
         <source>Are you sure you want to delete the selected user?</source>
         <translation>Apakah Anda yakin ingin menghapus pengguna yang terpilih?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="189"/>
+        <location filename="../mainwindow.cpp" line="191"/>
         <source>Are you sure you want to delete the selected group?</source>
         <translation>Apakah Anda yakin ingin menghapus grup yang terpilih?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="200"/>
+        <location filename="../mainwindow.cpp" line="202"/>
         <source>Input the new password for %1:</source>
         <translation>Masukkan kata sandi baru untuk %1:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="212"/>
         <source>Are you sure you want to set a empty password?</source>
         <translation>Apakah Anda yakin ingin menetapkan kata sandi kosong?</translation>
     </message>
@@ -255,12 +255,7 @@
 <context>
     <name>UserManager</name>
     <message>
-        <location filename="../usermanager.cpp" line="227"/>
-        <source>lxqt-admin-user</source>
-        <translation>lxqt-admin-user</translation>
-    </message>
-    <message>
-        <location filename="../usermanager.cpp" line="228"/>
+        <location filename="../usermanager.cpp" line="229"/>
         <source>&lt;strong&gt;Action (%1) failed:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</source>
         <translation>&lt;strong&gt;Aksi (%1) gagal:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</translation>
     </message>

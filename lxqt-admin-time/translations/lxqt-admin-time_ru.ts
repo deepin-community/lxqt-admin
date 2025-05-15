@@ -26,18 +26,19 @@
     <message>
         <location filename="../datetime.ui" line="77"/>
         <source>RTC is in local time</source>
-        <translation>RTC установлено на местное время</translation>
+        <translation>Часы реального времени используют местное время</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../fbsdtimedatectl.cpp" line="122"/>
+        <location filename="../nosdtimedatectl.cpp" line="144"/>
         <source>lxqt-admin-time-helper</source>
         <translation>lxqt-admin-time-helper</translation>
     </message>
     <message>
         <location filename="../fbsdtimedatectl.cpp" line="123"/>
+        <location filename="../nosdtimedatectl.cpp" line="145"/>
         <source>&lt;strong&gt;Action (%1) failed:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</source>
         <translation>&lt;strong&gt;(%1) не удалось&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</translation>
     </message>
@@ -45,40 +46,40 @@
 <context>
     <name>TimeAdminDialog</name>
     <message>
-        <location filename="../timeadmindialog.cpp" line="45"/>
+        <location filename="../timeadmindialog.cpp" line="46"/>
         <source>Time and date configuration</source>
         <translation>Настройки даты и времени</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="51"/>
+        <location filename="../timeadmindialog.cpp" line="52"/>
         <source>Date and time</source>
         <translation>Дата и время</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="59"/>
+        <location filename="../timeadmindialog.cpp" line="60"/>
         <source>Timezone</source>
         <translation>Часовой пояс</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="120"/>
-        <location filename="../timeadmindialog.cpp" line="130"/>
-        <location filename="../timeadmindialog.cpp" line="137"/>
-        <location filename="../timeadmindialog.cpp" line="147"/>
+        <location filename="../timeadmindialog.cpp" line="123"/>
+        <location filename="../timeadmindialog.cpp" line="133"/>
+        <location filename="../timeadmindialog.cpp" line="140"/>
+        <location filename="../timeadmindialog.cpp" line="150"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="154"/>
+        <location filename="../timeadmindialog.cpp" line="157"/>
         <source>Change RTC to be in localtime requires a reboot</source>
         <translation>Смена RTC на местное время требует перезагрузки</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="154"/>
+        <location filename="../timeadmindialog.cpp" line="157"/>
         <source>Change RTC to be in UTC requires a reboot</source>
         <translation>Смена RTC на UTC требует перезагрузки</translation>
     </message>
     <message>
-        <location filename="../timeadmindialog.cpp" line="155"/>
+        <location filename="../timeadmindialog.cpp" line="158"/>
         <source>Reboot required</source>
         <translation>Требуется перезагрузка</translation>
     </message>

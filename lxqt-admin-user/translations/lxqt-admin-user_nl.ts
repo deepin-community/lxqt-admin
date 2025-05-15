@@ -21,7 +21,7 @@
     <message>
         <location filename="../groupdialog.ui" line="40"/>
         <source>Group ID:</source>
-        <translation>Groeps-ID:</translation>
+        <translation>Groepsid:</translation>
     </message>
     <message>
         <location filename="../groupdialog.ui" line="47"/>
@@ -31,12 +31,12 @@
     <message>
         <location filename="../groupdialog.cpp" line="64"/>
         <source>Error</source>
-        <translation>Fout</translation>
+        <translation>Foutmelding</translation>
     </message>
     <message>
         <location filename="../groupdialog.cpp" line="64"/>
         <source>The group name cannot be empty.</source>
-        <translation>De groepsnaam kan niet leeg zijn.</translation>
+        <translation>Voer een groepsnaam in.</translation>
     </message>
 </context>
 <context>
@@ -44,12 +44,12 @@
     <message>
         <location filename="../mainwindow.ui" line="14"/>
         <source>User and Group Settings</source>
-        <translation>Instellingen voor gebruikers en groepen</translation>
+        <translation>Gebruikers- en groepsinstellingen</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="40"/>
         <source>&amp;Users</source>
-        <translation>&amp;Gebruikers</translation>
+        <translation>Gebr&amp;uikers</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="59"/>
@@ -59,7 +59,7 @@
     <message>
         <location filename="../mainwindow.ui" line="64"/>
         <source>User ID</source>
-        <translation>Gebruikers-ID</translation>
+        <translation>Gebruikersid</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="69"/>
@@ -74,12 +74,12 @@
     <message>
         <location filename="../mainwindow.ui" line="79"/>
         <source>Home Directory</source>
-        <translation>Thuismap</translation>
+        <translation>Persoonlijke map</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="87"/>
         <source>Show system users (for advanced users only)</source>
-        <translation>Toon systeemgebruikers (alleen voor gevorderden)</translation>
+        <translation>Systeemgebruikers tonen (alleen voor gevorderden)</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="95"/>
@@ -94,7 +94,7 @@
     <message>
         <location filename="../mainwindow.ui" line="116"/>
         <source>Group ID</source>
-        <translation>Groeps-ID</translation>
+        <translation>Groepsid</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="121"/>
@@ -102,81 +102,81 @@
         <translation>Leden</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="185"/>
+        <location filename="../mainwindow.ui" line="188"/>
         <source>Edit properties of the selected item</source>
-        <translation>Bewerk eigenschappen van het geselecteerde item</translation>
+        <translation>Eigenschappen van het geselecteerde item bewerken</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="158"/>
+        <location filename="../mainwindow.ui" line="161"/>
         <source>Add</source>
         <translation>Toevoegen</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="161"/>
+        <location filename="../mainwindow.ui" line="164"/>
         <source>Add new users or groups</source>
-        <translation>Nieuwe gebruikers of groepen toevoegen</translation>
+        <translation>Voeg nieuwe gebruikers of groepen toe</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="170"/>
+        <location filename="../mainwindow.ui" line="173"/>
         <source>Delete</source>
         <translation>Verwijderen</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="173"/>
+        <location filename="../mainwindow.ui" line="176"/>
         <source>Delete selected item</source>
-        <translation>Verwijder gekozen element</translation>
+        <translation>Verwijder het geselecteerde item</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="182"/>
+        <location filename="../mainwindow.ui" line="185"/>
         <source>Properties</source>
         <translation>Eigenschappen</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="194"/>
+        <location filename="../mainwindow.ui" line="197"/>
         <source>Refresh</source>
         <translation>Verversen</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="197"/>
+        <location filename="../mainwindow.ui" line="200"/>
         <source>Refresh the lists</source>
         <translation>Ververs de lijsten</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="206"/>
+        <location filename="../mainwindow.ui" line="209"/>
         <source>Change Password</source>
         <translation>Wachtwoord wijzigen</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="209"/>
+        <location filename="../mainwindow.ui" line="212"/>
         <source>Change password for the selected user or group</source>
-        <translation>Wijzig wachtwoord voor de gekozen gebruiker of groep</translation>
+        <translation>Wijzig het wachtwoord van de geselecteerde gebruiker of groep</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="177"/>
-        <location filename="../mainwindow.cpp" line="189"/>
-        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="179"/>
+        <location filename="../mainwindow.cpp" line="191"/>
+        <location filename="../mainwindow.cpp" line="212"/>
         <source>Confirm</source>
         <translation>Bevestigen</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="177"/>
+        <location filename="../mainwindow.cpp" line="179"/>
         <source>Are you sure you want to delete the selected user?</source>
-        <translation>Wilt u de gekozen gebruiker werkelijk verwijderen?</translation>
+        <translation>Weet u zeker dat u de geselecteerde gebruiker wilt verwijderen?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="189"/>
+        <location filename="../mainwindow.cpp" line="191"/>
         <source>Are you sure you want to delete the selected group?</source>
-        <translation>Wilt u de gekozen groep werkelijk verwijderen?</translation>
+        <translation>Weet u zeker dat u de geselecteerde groep wilt verwijderen?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="200"/>
+        <location filename="../mainwindow.cpp" line="202"/>
         <source>Input the new password for %1:</source>
-        <translation>Geef het nieuwe wachtwoord in voor %1:</translation>
+        <translation>Voer een nieuw wachtwoord in voor %1:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="212"/>
         <source>Are you sure you want to set a empty password?</source>
-        <translation>Weet u zeker dat u een leeg wachtwoord wilt instellen?</translation>
+        <translation>Weet u zeker dat u een blanco wachtwoord wilt instellen?</translation>
     </message>
 </context>
 <context>
@@ -204,7 +204,7 @@
     <message>
         <location filename="../userdialog.ui" line="53"/>
         <source>User ID:</source>
-        <translation>Gebruikers-ID:</translation>
+        <translation>Gebruikersid:</translation>
     </message>
     <message>
         <location filename="../userdialog.ui" line="60"/>
@@ -224,7 +224,7 @@
     <message>
         <location filename="../userdialog.ui" line="91"/>
         <source>The user belongs to the following groups:</source>
-        <translation>De gebruiker behoort tot de volgende groepen:</translation>
+        <translation>Deze gebruiker behoort tot de volgende groepen:</translation>
     </message>
     <message>
         <location filename="../userdialog.ui" line="109"/>
@@ -239,28 +239,23 @@
     <message>
         <location filename="../userdialog.ui" line="132"/>
         <source>Home directory:</source>
-        <translation>Thuismap:</translation>
+        <translation>Persoonlijke map:</translation>
     </message>
     <message>
         <location filename="../userdialog.cpp" line="120"/>
         <source>Error</source>
-        <translation>Fout</translation>
+        <translation>Foutmelding</translation>
     </message>
     <message>
         <location filename="../userdialog.cpp" line="120"/>
         <source>The user name cannot be empty.</source>
-        <translation>De gebruikersnaam kan niet leeg zijn.</translation>
+        <translation>Voer een gebruikersnaam in.</translation>
     </message>
 </context>
 <context>
     <name>UserManager</name>
     <message>
-        <location filename="../usermanager.cpp" line="227"/>
-        <source>lxqt-admin-user</source>
-        <translation>lxqt-admin-user</translation>
-    </message>
-    <message>
-        <location filename="../usermanager.cpp" line="228"/>
+        <location filename="../usermanager.cpp" line="229"/>
         <source>&lt;strong&gt;Action (%1) failed:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</source>
         <translation>&lt;strong&gt;Actie (%1) mislukt:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</translation>
     </message>

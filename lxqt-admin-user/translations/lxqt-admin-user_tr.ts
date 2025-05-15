@@ -102,79 +102,79 @@
         <translation>Üyeler</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="185"/>
+        <location filename="../mainwindow.ui" line="188"/>
         <source>Edit properties of the selected item</source>
         <translation>Seçilen ögenin özelliklerini düzenle</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="158"/>
+        <location filename="../mainwindow.ui" line="161"/>
         <source>Add</source>
         <translation>Ekle</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="161"/>
+        <location filename="../mainwindow.ui" line="164"/>
         <source>Add new users or groups</source>
         <translation>Yeni kullanıcılar ve gruplar ekle</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="170"/>
+        <location filename="../mainwindow.ui" line="173"/>
         <source>Delete</source>
         <translation>Sil</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="173"/>
+        <location filename="../mainwindow.ui" line="176"/>
         <source>Delete selected item</source>
         <translation>Seçilen ögeyi sil</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="182"/>
+        <location filename="../mainwindow.ui" line="185"/>
         <source>Properties</source>
         <translation>Özellikler</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="194"/>
+        <location filename="../mainwindow.ui" line="197"/>
         <source>Refresh</source>
         <translation>Yenile</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="197"/>
+        <location filename="../mainwindow.ui" line="200"/>
         <source>Refresh the lists</source>
         <translation>Listeyi yenile</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="206"/>
+        <location filename="../mainwindow.ui" line="209"/>
         <source>Change Password</source>
         <translation>Parolayı Değiştir</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="209"/>
+        <location filename="../mainwindow.ui" line="212"/>
         <source>Change password for the selected user or group</source>
         <translation>Seçilen kullanıcı ya da grup için parolayı değiştir</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="177"/>
-        <location filename="../mainwindow.cpp" line="189"/>
-        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="179"/>
+        <location filename="../mainwindow.cpp" line="191"/>
+        <location filename="../mainwindow.cpp" line="212"/>
         <source>Confirm</source>
         <translation>Doğrula</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="177"/>
+        <location filename="../mainwindow.cpp" line="179"/>
         <source>Are you sure you want to delete the selected user?</source>
         <translation>Seçilen kullanıcıyı silmek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="189"/>
+        <location filename="../mainwindow.cpp" line="191"/>
         <source>Are you sure you want to delete the selected group?</source>
         <translation>Seçilen grubu silmek istediğinizden emin misiniz?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="200"/>
+        <location filename="../mainwindow.cpp" line="202"/>
         <source>Input the new password for %1:</source>
         <translation>%1 için yeni parolayı girin:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="212"/>
         <source>Are you sure you want to set a empty password?</source>
         <translation>Parolayı boş bırakmak istediğinizden emin misiniz?</translation>
     </message>
@@ -255,12 +255,7 @@
 <context>
     <name>UserManager</name>
     <message>
-        <location filename="../usermanager.cpp" line="227"/>
-        <source>lxqt-admin-user</source>
-        <translation>lxqt-yönetici-kullanıcı</translation>
-    </message>
-    <message>
-        <location filename="../usermanager.cpp" line="228"/>
+        <location filename="../usermanager.cpp" line="229"/>
         <source>&lt;strong&gt;Action (%1) failed:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</source>
         <translation>&lt;strong&gt;Eylem (%1) başarısız:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</translation>
     </message>

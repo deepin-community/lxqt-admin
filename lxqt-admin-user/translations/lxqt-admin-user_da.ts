@@ -102,79 +102,79 @@
         <translation>Medlemmer</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="185"/>
+        <location filename="../mainwindow.ui" line="188"/>
         <source>Edit properties of the selected item</source>
         <translation>Rediger egenskaber for den valgte post</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="158"/>
+        <location filename="../mainwindow.ui" line="161"/>
         <source>Add</source>
         <translation>Tilføj</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="161"/>
+        <location filename="../mainwindow.ui" line="164"/>
         <source>Add new users or groups</source>
         <translation>Tilføj nye brugere eller grupper</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="170"/>
+        <location filename="../mainwindow.ui" line="173"/>
         <source>Delete</source>
         <translation>Slet</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="173"/>
+        <location filename="../mainwindow.ui" line="176"/>
         <source>Delete selected item</source>
         <translation>Slet valgte post</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="182"/>
+        <location filename="../mainwindow.ui" line="185"/>
         <source>Properties</source>
         <translation>Egenskaber</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="194"/>
+        <location filename="../mainwindow.ui" line="197"/>
         <source>Refresh</source>
         <translation>Opdater</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="197"/>
+        <location filename="../mainwindow.ui" line="200"/>
         <source>Refresh the lists</source>
         <translation>Opdater listerne</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="206"/>
+        <location filename="../mainwindow.ui" line="209"/>
         <source>Change Password</source>
         <translation>Skift adgangskode</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="209"/>
+        <location filename="../mainwindow.ui" line="212"/>
         <source>Change password for the selected user or group</source>
         <translation>Skift adgangskode for den valgte bruger eller gruppe</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="177"/>
-        <location filename="../mainwindow.cpp" line="189"/>
-        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="179"/>
+        <location filename="../mainwindow.cpp" line="191"/>
+        <location filename="../mainwindow.cpp" line="212"/>
         <source>Confirm</source>
         <translation>Bekræft</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="177"/>
+        <location filename="../mainwindow.cpp" line="179"/>
         <source>Are you sure you want to delete the selected user?</source>
         <translation>Er du sikker på, at du vil slette den valgte bruger?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="189"/>
+        <location filename="../mainwindow.cpp" line="191"/>
         <source>Are you sure you want to delete the selected group?</source>
         <translation>Er du sikker på, at du vil slette den valgte gruppe?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="200"/>
+        <location filename="../mainwindow.cpp" line="202"/>
         <source>Input the new password for %1:</source>
         <translation>Input den nye adgangskode til %1:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="212"/>
         <source>Are you sure you want to set a empty password?</source>
         <translation>Er du sikker på, at du vil sætte en tom adgangskode?</translation>
     </message>
@@ -255,12 +255,7 @@
 <context>
     <name>UserManager</name>
     <message>
-        <location filename="../usermanager.cpp" line="227"/>
-        <source>lxqt-admin-user</source>
-        <translation>lxqt-admin-user</translation>
-    </message>
-    <message>
-        <location filename="../usermanager.cpp" line="228"/>
+        <location filename="../usermanager.cpp" line="229"/>
         <source>&lt;strong&gt;Action (%1) failed:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</source>
         <translation>&lt;strong&gt;Handling (%1) mislykkedes:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</translation>
     </message>

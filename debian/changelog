@@ -1,3 +1,120 @@
+lxqt-admin (2.1.0-1) unstable; urgency=medium
+
+  * New upstream version 2.1.0.
+  * debian/control: build-deps on liblxqt-dev (>= 2.1.0~).
+
+ -- Macy Lin <macy@debconf.org>  Tue, 10 Dec 2024 10:09:42 +0100
+
+lxqt-admin (2.0.0-1) unstable; urgency=medium
+
+  * Migrate to unstable.
+  * Run wrap-and-sort.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Thu, 28 Nov 2024 20:47:21 +0100
+
+lxqt-admin (2.0.0-1~exp1) experimental; urgency=medium
+
+  [ Severus Septimius ]
+  *  New upstream release 2.0.0
+  * debian/control: bump dep on libpolkit-qt5-1-dev -> libpolkit-qt6-1-dev
+  * debian/control: remove dep on libqt5x11extras5-dev
+  * debian/control: bump dep on qttools5-dev -> qt6-tools-dev
+  * debian/control: bump dep on liblxqt1-dev -> liblxqt2-dev
+  * debian/control: bump dep on libkf5windowsystem-dev ->
+    libkf6windowsystem-dev
+  * debian/control: bump dep qttranslations5-l10n -> qt6-translations-l10n
+
+  [ Andrew Lee (李健秋) ]
+  * debian/salsa-ci.yml: build against to experimental.
+  * debian/control: build-deps on liblxqt-dev (>= 2.0.0~).
+  * debian/control: build-deps on libglib2.0-dev,
+  * debian/copyright: update.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sat, 21 Sep 2024 15:19:10 +0200
+
+lxqt-admin (1.4.0-2) unstable; urgency=medium
+
+  [ Macy Lin ]
+  * debian/control: build-deps on qttools5-dev. (Closes:#1078291)
+  * debian/control: bump to Standards-version to 4.7.0, no changes needed.
+  * debian/copyright: added myself.
+
+  [ Andrew Lee (李健秋) ]
+  * Clean up of group membership after 2nd calls.
+  * debian/copyright: update.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sun, 08 Sep 2024 14:15:00 +0200
+
+lxqt-admin (1.4.0-1) unstable; urgency=medium
+
+  [ ChangZhuo Chen (陳昌倬) ]
+  * Suppress blhc error
+
+  [ Andrew Lee (李健秋) ]
+  * New upstream version 1.4.0
+  * debian/control: build-deps on liblxqt1-dev (>= 1.4.0~).
+  * debian/upstream/metadata: drop obsolete field Name.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sun, 10 Dec 2023 16:55:45 +0100
+
+lxqt-admin (1.3.0-1) unstable; urgency=medium
+
+  * New upstream version 1.3.0
+  * debian/control: update team address.
+  * debian/control: bump to Standards-version to 4.6.2, no changes needed.
+  * debian/control; build-deps on liblxqt1-dev (>= 1.3.0~).
+  * debian/control: clean up build-deps.
+  * debian/copyright: update.
+  * debian/upstream/metadata: update url for git repo.
+  * debian/rules: Drop --fail-missing argument to dh_missing which is now
+    default in debhelper 13.
+
+ -- Andrew Lee (李健秋) <ajqlee@debian.org>  Sat, 01 Jul 2023 08:07:58 +0200
+
+lxqt-admin (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Wed, 14 Dec 2022 23:23:59 +0800
+
+lxqt-admin (1.1.0-3) unstable; urgency=medium
+
+  * Fix Build-Depends.
+  * Change Depends/Recommends indent.
+  * Sort copyright.
+  * Add Repository-Browse to upstream metadata.
+  * Use LF in signing-key.asc.
+  * Workaround d/watch for github.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sun, 20 Nov 2022 23:04:48 +0800
+
+lxqt-admin (1.1.0-2) unstable; urgency=medium
+
+  * Merge to unstable.
+
+ -- ChangZhuo Chen (陳昌倬) <czchen@debian.org>  Sat, 19 Nov 2022 00:56:33 +0800
+
+lxqt-admin (1.1.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Upstreamed compatible changes from Ubuntu, modifying the following files:
+    - control
+    - copyright
+    - docs
+    - lintian-overrides
+    - lxqt-admin-l10n.install
+    - rules
+    - upstream/*
+
+ -- Aaron Rainbolt <arraybolt3@gmail.com>  Tue, 12 Jul 2022 16:16:35 -0500
+
+lxqt-admin (1.0.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bumped Standards-Version to 4.6.0, no changes needed
+
+ -- S. 7 <severusseptimius7@gmail.com>  Thu, 25 Nov 2021 18:19:55 +0200
+
 lxqt-admin (0.16.0-1) unstable; urgency=medium
 
   [ Alf Gaida ]

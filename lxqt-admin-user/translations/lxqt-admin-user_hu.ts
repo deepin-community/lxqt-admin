@@ -36,7 +36,7 @@
     <message>
         <location filename="../groupdialog.cpp" line="64"/>
         <source>The group name cannot be empty.</source>
-        <translation>Csoportnév nem lehet üres.</translation>
+        <translation>A csoport neve nem lehet üres.</translation>
     </message>
 </context>
 <context>
@@ -54,7 +54,7 @@
     <message>
         <location filename="../mainwindow.ui" line="59"/>
         <source>Login Name</source>
-        <translation>Bejelenkezési név</translation>
+        <translation>Bejelentkezési név</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="64"/>
@@ -79,7 +79,7 @@
     <message>
         <location filename="../mainwindow.ui" line="87"/>
         <source>Show system users (for advanced users only)</source>
-        <translation>Rendszerfelhasználók is látszanak (csak haladóknak)</translation>
+        <translation>Rendszerfelhasználók megjelenítése (csak haladóknak)</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="95"/>
@@ -102,81 +102,81 @@
         <translation>Tagok</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="185"/>
+        <location filename="../mainwindow.ui" line="188"/>
         <source>Edit properties of the selected item</source>
-        <translation type="unfinished">A kiválasztott elem tulajdonságainak szerkesztése</translation>
+        <translation>Kiválasztott elem tulajdonságainak szerkesztése</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="158"/>
+        <location filename="../mainwindow.ui" line="161"/>
         <source>Add</source>
         <translation>Hozzáadás</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="161"/>
+        <location filename="../mainwindow.ui" line="164"/>
         <source>Add new users or groups</source>
         <translation>Új felhasználó, vagy csoport hozzáadása</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="170"/>
+        <location filename="../mainwindow.ui" line="173"/>
         <source>Delete</source>
         <translation>Törlés</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="173"/>
+        <location filename="../mainwindow.ui" line="176"/>
         <source>Delete selected item</source>
         <translation>Kiválasztott elem törlése</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="182"/>
+        <location filename="../mainwindow.ui" line="185"/>
         <source>Properties</source>
         <translation>Tulajdonságok</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="194"/>
+        <location filename="../mainwindow.ui" line="197"/>
         <source>Refresh</source>
         <translation>Frissítés</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="197"/>
+        <location filename="../mainwindow.ui" line="200"/>
         <source>Refresh the lists</source>
-        <translation>Lista frissítése</translation>
+        <translation>Listák frissítése</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="206"/>
+        <location filename="../mainwindow.ui" line="209"/>
         <source>Change Password</source>
         <translation>Jelszó módosítása</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="209"/>
+        <location filename="../mainwindow.ui" line="212"/>
         <source>Change password for the selected user or group</source>
         <translation>Felhasználó, vagy csoport jelszavának megváltoztatása</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="177"/>
-        <location filename="../mainwindow.cpp" line="189"/>
-        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="179"/>
+        <location filename="../mainwindow.cpp" line="191"/>
+        <location filename="../mainwindow.cpp" line="212"/>
         <source>Confirm</source>
         <translation>Megerősítés</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="177"/>
+        <location filename="../mainwindow.cpp" line="179"/>
         <source>Are you sure you want to delete the selected user?</source>
         <translation>Biztosan törli a kiválasztott felhasználót?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="189"/>
+        <location filename="../mainwindow.cpp" line="191"/>
         <source>Are you sure you want to delete the selected group?</source>
         <translation>Biztosan törli a kiválasztott csoportot?</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="200"/>
+        <location filename="../mainwindow.cpp" line="202"/>
         <source>Input the new password for %1:</source>
-        <translation>%1 új jelszava:</translation>
+        <translation>Adja meg %1 új jelszavát:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="210"/>
+        <location filename="../mainwindow.cpp" line="212"/>
         <source>Are you sure you want to set a empty password?</source>
-        <translation>Biztos, hogy üres legyen a jelszó?</translation>
+        <translation>Biztos benne, hogy üres legyen a jelszó?</translation>
     </message>
 </context>
 <context>
@@ -184,12 +184,12 @@
     <message>
         <location filename="../userdialog.ui" line="14"/>
         <source>User Settings</source>
-        <translation>Felhasználó beállítása</translation>
+        <translation>Felhasználó beállítások</translation>
     </message>
     <message>
         <location filename="../userdialog.ui" line="24"/>
         <source>General</source>
-        <translation>Alap</translation>
+        <translation>Általános</translation>
     </message>
     <message>
         <location filename="../userdialog.ui" line="43"/>
@@ -199,7 +199,7 @@
     <message>
         <location filename="../userdialog.ui" line="33"/>
         <source>Login name:</source>
-        <translation>Bejelenkezési név:</translation>
+        <translation>Bejelentkezési név:</translation>
     </message>
     <message>
         <location filename="../userdialog.ui" line="53"/>
@@ -255,12 +255,7 @@
 <context>
     <name>UserManager</name>
     <message>
-        <location filename="../usermanager.cpp" line="227"/>
-        <source>lxqt-admin-user</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location filename="../usermanager.cpp" line="228"/>
+        <location filename="../usermanager.cpp" line="229"/>
         <source>&lt;strong&gt;Action (%1) failed:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</source>
         <translation>&lt;strong&gt;A (%1) művelet sikertelen:&lt;/strong&gt;&lt;br/&gt;&lt;pre&gt;%2&lt;/pre&gt;</translation>
     </message>

@@ -46,20 +46,21 @@ FBSDTimeDateCtl::~FBSDTimeDateCtl()
 QString FBSDTimeDateCtl::timeZone() const
 {
     QFile tzFile(QSL("/var/db/zoneinfo"));
-         if (!tzFile.open(QFile::ReadOnly | QFile::Text)) return QSL("Unknown");
-         QTextStream in(&tzFile);
-             QString lastTZone = in.readLine();
-                 return lastTZone;
+    if (!tzFile.open(QFile::ReadOnly | QFile::Text))
+        return QSL("Unknown");
 
+    QTextStream in(&tzFile);
+    QString lastTZone = in.readLine();
+    return lastTZone;
 }
 
-bool FBSDTimeDateCtl::setTimeZone(QString timeZone, QString& errorMessage)
+bool FBSDTimeDateCtl::setTimeZone(QString timeZone, QString& /*errorMessage*/)
 {
     mHelperArgs << QSL("-t") << timeZone;
     return true;
 }
 
-bool FBSDTimeDateCtl::setDateTime(QDateTime dateTime, QString& errorMessage)
+bool FBSDTimeDateCtl::setDateTime(QDateTime dateTime, QString& /*errorMessage*/)
 {
     qint64 epochsec = dateTime.toSecsSinceEpoch();
     mHelperArgs << QSL("-d") << QString::number(epochsec);
@@ -76,8 +77,7 @@ bool FBSDTimeDateCtl::useNtp() const
     process.waitForFinished(-1);
     QString t = QString::fromLatin1(process.readAllStandardOutput());
     QStringList o = t.split(QSL("\n"));
-    for (QStringList::iterator it = o.begin();
-         it != o.end(); ++it) {
+    for (QStringList::iterator it = o.begin(); it != o.end(); ++it) {
         QString current = *it;
         if(!current.startsWith(QSL("#")) && current.contains(QSL("ntpd_enable"),Qt::CaseInsensitive) && current.contains(QSL("yes"),Qt::CaseInsensitive)) {
             return true;
@@ -86,7 +86,7 @@ bool FBSDTimeDateCtl::useNtp() const
     return false;
 }
 
-bool FBSDTimeDateCtl::setUseNtp(bool value, QString& errorMessage)
+bool FBSDTimeDateCtl::setUseNtp(bool value, QString& /*errorMessage*/)
 {
     mHelperArgs << QSL("-n") << (value ? QSL("true") : QSL("false"));
     return true;
@@ -97,7 +97,7 @@ bool FBSDTimeDateCtl::localRtc() const
     return QFileInfo::exists(QSL("/etc/wall_cmos_clock"));
 }
 
-bool FBSDTimeDateCtl::setLocalRtc(bool value, QString& errorMessage)
+bool FBSDTimeDateCtl::setLocalRtc(bool value, QString& /*errorMessage*/)
 {
     mHelperArgs << QSL("-l") << (value ? QSL("true") : QSL("false"));
     return true;
@@ -119,8 +119,8 @@ bool FBSDTimeDateCtl::pkexec()
     const bool succeeded = process.exitCode() == 0;
     if (!succeeded)
     {
-        QMessageBox * msg = new QMessageBox{QMessageBox::Critical, QObject::tr("lxqt-admin-time-helper")
-            , QObject::tr("<strong>Action (%1) failed:</strong><br/><pre>%2</pre>").arg(args[0]).arg(QString::fromLatin1(pkexec_error))};
+        QMessageBox * msg = new QMessageBox{QMessageBox::Critical, QStringLiteral("lxqt-admin-time-helper"),
+            QObject::tr("<strong>Action (%1) failed:</strong><br/><pre>%2</pre>").arg(args[0]).arg(QString::fromLatin1(pkexec_error))};
         msg->setAttribute(Qt::WA_DeleteOnClose, true);
         msg->show();
     }

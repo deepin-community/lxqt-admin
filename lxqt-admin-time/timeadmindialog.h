@@ -27,7 +27,11 @@
 
 #include <LXQt/ConfigDialog>
 #ifdef Q_OS_LINUX
+#ifdef NO_SYSTEMD
+#include "nosdtimedatectl.h"
+#else
 #include "dbustimedatectl.h"
+#endif
 #endif
 #ifdef Q_OS_FREEBSD
 #include "fbsdtimedatectl.h"
@@ -54,7 +58,11 @@ private:
 
 private:
 #ifdef Q_OS_LINUX
+#ifdef NO_SYSTEMD
+    NOSDTimeDateCtl mTimeDateCtl;
+#else
     DbusTimeDateCtl mTimeDateCtl;
+#endif
 #endif
 #ifdef Q_OS_FREEBSD
     FBSDTimeDateCtl mTimeDateCtl;

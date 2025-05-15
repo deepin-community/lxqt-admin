@@ -33,7 +33,6 @@
 int main(int argc, char **argv)
 {
     LXQt::SingleApplication app(argc, argv);
-    app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
 
     QCommandLineParser parser;
     parser.setApplicationDescription(QStringLiteral("LXQt Admin Time"));
@@ -46,7 +45,7 @@ int main(int argc, char **argv)
     parser.process(app);
 
     TimeAdminDialog dlg;
-    dlg.setWindowIcon(QIcon::fromTheme(QSL("preferences-system")));
+    dlg.setWindowIcon(QIcon::fromTheme(QSL("preferences-system-time")));
     app.setActivationWindow(&dlg);
     dlg.show();
     return app.exec();
